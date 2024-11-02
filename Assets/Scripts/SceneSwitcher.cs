@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneSwitcherOnHover : MonoBehaviour
+public class SceneSwitcher : MonoBehaviour
 {
+    public string SceneStage;
     private void OnMouseOver()
     {
-        SceneManager.LoadScene("Stage2");
+        SceneManager.LoadScene(SceneStage);
     }
 }
 
