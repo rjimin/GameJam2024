@@ -66,3 +66,12 @@ TagManager:
   - name: Cursor
     uniqueID: 2210600075
     locked: 0
+  - name: Swamp
+    uniqueID: 1658088103
+    locked: 0
+  - name: Scarecrow
+    uniqueID: 2252035121
+    locked: 0
+  - name: Next
+    uniqueID: 1013039089
+    locked: 0
