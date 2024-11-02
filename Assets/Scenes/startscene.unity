@@ -132,8 +132,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 585278518}
-  - component: {fileID: 585278522}
   - component: {fileID: 585278521}
+  - component: {fileID: 585278522}
   - component: {fileID: 585278520}
   - component: {fileID: 585278519}
   m_Layer: 5
@@ -159,7 +159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -366.33636, y: -149.01886}
+  m_AnchoredPosition: {x: -366.26, y: -148.92}
   m_SizeDelta: {x: 18.9993, y: 9.3023}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &585278519
@@ -193,7 +193,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -346,7 +346,7 @@ Transform:
   m_GameObject: {fileID: 786800037}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.67, y: 0.19, z: 0}
+  m_LocalPosition: {x: -0.94, y: 0.07, z: 0}
   m_LocalScale: {x: 0.6006, y: 0.6006, z: 0.6006}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -592,7 +592,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &1783512486
 RectTransform:
@@ -607,7 +607,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 585278518}
-  m_Father: {fileID: 1912570296}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -695,8 +695,7 @@ Transform:
   m_LocalPosition: {x: -0.6996, y: -0.0115, z: 0}
   m_LocalScale: {x: 0.74841315, y: 0.6135237, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1783512486}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
@@ -704,6 +703,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1117392840}
-  - {fileID: 1912570296}
+  - {fileID: 1783512486}
   - {fileID: 786800039}
+  - {fileID: 1912570296}
   - {fileID: 1172496201}
