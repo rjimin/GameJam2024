@@ -11,5 +11,9 @@ public class DeathTrigger : MonoBehaviour
         {
             SceneManager.LoadScene(deathSceneName);
         }
+        else if (other.CompareTag("Ghost"))
+        {
+            other.gameObject.SetActive(false);
+        }
     }
 }
