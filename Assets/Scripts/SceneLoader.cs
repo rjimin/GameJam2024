@@ -1,17 +1,18 @@
-using UnityEngine;
-using UnityEngine.SceneManagement;
+// using UnityEngine;
+// using UnityEngine.SceneManagement;
 
-public class SceneLoader : MonoBehaviour
-{
-     public void LoadNextScene(string sceneName)
-    {
-        // Load the scene with the name "ID"
-        SceneManager.LoadScene(sceneName);
-    }
-    // public void LoadNextScene()
-    // {
-    //     // Get the current active scene index and increment it to load the next scene
-    //     int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-    //     SceneManager.LoadScene(currentSceneIndex + 1);
-    // }
-}
+// public class SceneLoader : MonoBehaviour
+// {
+//      public void LoadNextScene(string sceneName)
+//     {
+//         SceneManager.LoadScene(sceneName);
+//     }
+//     private void OnTriggerEnter(Collider other)
+//     {
+//         // Check if the object colliding with this is tagged as "Player"
+//         if (other.CompareTag("Player"))
+//         {
+//             LoadNextScene(sceneName);
+//         }
+//     }
+// }
