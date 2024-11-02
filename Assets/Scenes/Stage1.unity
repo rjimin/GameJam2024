@@ -473,6 +473,7 @@ GameObject:
   - component: {fileID: 1372773409}
   - component: {fileID: 1372773408}
   - component: {fileID: 1372773410}
+  - component: {fileID: 1372773411}
   m_Layer: 0
   m_Name: stage1-coffin
   m_TagString: Untagged
@@ -592,6 +593,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.6847486, y: 5.5783606}
   m_EdgeRadius: 0
+--- !u!114 &1372773411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372773407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb19e52b1cf56634db90b32d18eec038, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathSceneName: Dead_Coffin
 --- !u!1 &1891888819
 GameObject:
   m_ObjectHideFlags: 0
@@ -849,6 +863,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5398191216625761714, guid: cb0d03ba83424a745ad5fc29122f8be6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5665473545225083746}
+    - targetCorrespondingSourceObject: {fileID: 5398191216625761714, guid: cb0d03ba83424a745ad5fc29122f8be6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5665473545225083749}
   m_SourcePrefab: {fileID: 100100000, guid: cb0d03ba83424a745ad5fc29122f8be6, type: 3}
 --- !u!1 &5665473545225083745 stripped
 GameObject:
@@ -890,6 +907,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0.67433983, y: -0.4557881}
   m_Size: {x: 11.814487, y: 21.881212}
   m_Direction: 0
+--- !u!114 &5665473545225083749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5665473545225083745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb19e52b1cf56634db90b32d18eec038, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathSceneName: Dead_Punched
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
