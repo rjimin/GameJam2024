@@ -44,8 +44,8 @@ TagManager:
   - name: Background
     uniqueID: 4214786575
     locked: 0
-  - name: Thunder
-    uniqueID: 2099622595
+  - name: Ghost
+    uniqueID: 2142205135
     locked: 0
   - name: Obstacle
     uniqueID: 887972595
@@ -53,15 +53,15 @@ TagManager:
   - name: PumpkinMan
     uniqueID: 68543781
     locked: 0
-  - name: Ghost
-    uniqueID: 2142205135
-    locked: 0
   - name: Coffin
     uniqueID: 4126473855
     locked: 0
+  - name: Thunder
+    uniqueID: 1584017939
+    locked: 0
   - name: Button
-    uniqueID: 3744619775
+    uniqueID: 4248178603
     locked: 0
   - name: Cursor
-    uniqueID: 3159015073
+    uniqueID: 2210600075
     locked: 0
