@@ -44,6 +44,9 @@ TagManager:
   - name: Background
     uniqueID: 4214786575
     locked: 0
+  - name: Thunder
+    uniqueID: 2099622595
+    locked: 0
   - name: Obstacle
     uniqueID: 887972595
     locked: 0
@@ -55,4 +58,10 @@ TagManager:
     locked: 0
   - name: Coffin
     uniqueID: 4126473855
+    locked: 0
+  - name: Button
+    uniqueID: 3744619775
+    locked: 0
+  - name: Cursor
+    uniqueID: 3159015073
     locked: 0
