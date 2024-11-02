@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CharacterControl : MonoBehaviour
+public class MouseControl : MonoBehaviour
 {
     private Camera mainCamera;
 
