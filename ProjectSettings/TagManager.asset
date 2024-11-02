@@ -65,3 +65,6 @@ TagManager:
   - name: Cursor
     uniqueID: 2210600075
     locked: 0
+  - name: Scarecrow
+    uniqueID: 2252035121
+    locked: 0
