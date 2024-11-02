@@ -70,3 +70,7 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Assets/.DS_Store
+Assets/character/.DS_Store
+Assets/Pumpkin Muscle Man/.DS_Store
+Assets/Ghost/.DS_Store

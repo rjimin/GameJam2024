@@ -41,3 +41,36 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 4214786575
+    locked: 0
+  - name: Ghost
+    uniqueID: 2142205135
+    locked: 0
+  - name: Obstacle
+    uniqueID: 887972595
+    locked: 0
+  - name: PumpkinMan
+    uniqueID: 68543781
+    locked: 0
+  - name: Coffin
+    uniqueID: 4126473855
+    locked: 0
+  - name: Thunder
+    uniqueID: 1584017939
+    locked: 0
+  - name: Button
+    uniqueID: 4248178603
+    locked: 0
+  - name: Cursor
+    uniqueID: 2210600075
+    locked: 0
+  - name: Swamp
+    uniqueID: 1658088103
+    locked: 0
+  - name: Scarecrow
+    uniqueID: 2252035121
+    locked: 0
+  - name: Next
+    uniqueID: 1013039089
+    locked: 0
