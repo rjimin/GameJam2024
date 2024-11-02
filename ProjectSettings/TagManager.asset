@@ -56,3 +56,12 @@ TagManager:
   - name: Coffin
     uniqueID: 4126473855
     locked: 0
+  - name: Thunder
+    uniqueID: 1584017939
+    locked: 0
+  - name: Button
+    uniqueID: 4248178603
+    locked: 0
+  - name: Cursor
+    uniqueID: 2210600075
+    locked: 0
