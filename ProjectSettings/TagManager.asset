@@ -71,3 +71,6 @@ TagManager:
   - name: Scarecrow
     uniqueID: 2252035121
     locked: 0
+  - name: Next
+    uniqueID: 1013039089
+    locked: 0
