@@ -378,7 +378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb19e52b1cf56634db90b32d18eec038, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathSceneName: Dead_hitted
+  deathSceneName: Dead_KnockGhost
 --- !u!1 &1717709015
 GameObject:
   m_ObjectHideFlags: 0

@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dead_Coffin.unity
     guid: 886e093b4628b1940ae53ed53a789f08
+  - enabled: 1
+    path: Assets/Scenes/Dead_KnockGhost.unity
+    guid: fbf1914357e813842af48307a081bdbd
   m_configObjects: {}
