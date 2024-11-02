@@ -44,14 +44,14 @@ TagManager:
   - name: Background
     uniqueID: 4214786575
     locked: 0
+  - name: Ghost
+    uniqueID: 2142205135
+    locked: 0
   - name: Obstacle
     uniqueID: 887972595
     locked: 0
   - name: PumpkinMan
     uniqueID: 68543781
-    locked: 0
-  - name: Ghost
-    uniqueID: 2142205135
     locked: 0
   - name: Coffin
     uniqueID: 4126473855
