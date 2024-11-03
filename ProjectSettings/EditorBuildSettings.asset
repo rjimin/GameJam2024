@@ -77,4 +77,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dead_Supermarket.unity
     guid: 89d5c7aaaf24d5d4393c955e7425f1d0
+  - enabled: 1
+    path: Assets/Scenes/Dead_Scarecrow.unity
+    guid: 03fffa81500c8a84ca74d4e3346073d8
   m_configObjects: {}
