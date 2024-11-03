@@ -101,4 +101,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: e801c494ffb4d9249b0c4d3111e90d95
+  - enabled: 1
+    path: Assets/Scenes/Dead_Board.unity
+    guid: cfd731284c7a5264d8009e6e53664098
   m_configObjects: {}
