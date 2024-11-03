@@ -552,7 +552,6 @@ GameObject:
   - component: {fileID: 526854188}
   - component: {fileID: 526854184}
   - component: {fileID: 526854186}
-  - component: {fileID: 526854185}
   m_Layer: 0
   m_Name: stage4-bg
   m_TagString: Untagged
@@ -742,19 +741,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneStage: Stage5
---- !u!114 &526854185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526854179}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08b1d5a27aa8e4643b7ab5bf4bd3ac24, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SceneStage: SecretStage
 --- !u!61 &526854186
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1090,7 +1076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2467a2ac8adbe42cdb40e173238f0ba3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Stage5
+  sceneName: LandMine
 --- !u!1 &1015812504 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2407390479202416018, guid: 420513714f0cc9a4cb8136b06dcaaae2, type: 3}
@@ -1320,7 +1306,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.7400002, y: 1.2799997, z: -0.6700001}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.91161, y: 0.91161, z: 0.91161}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
