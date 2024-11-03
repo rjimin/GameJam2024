@@ -116,4 +116,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dead_Step.unity
     guid: 6ed928d45373bbc4bbb68523d90a7f8d
+  - enabled: 1
+    path: Assets/Scenes/LandMine.unity
+    guid: 10940ba466089c24e95cdc72cf41bdca
+  - enabled: 1
+    path: Assets/Scenes/Bridge.unity
+    guid: db8ac6d0cddda44899388841dfccf92f
   m_configObjects: {}
