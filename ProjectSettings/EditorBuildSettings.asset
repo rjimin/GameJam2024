@@ -108,6 +108,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: e801c494ffb4d9249b0c4d3111e90d95
   - enabled: 1
-    path: Assets/Scenes/LandMine.unity
-    guid: 10940ba466089c24e95cdc72cf41bdca
+    path: Assets/Scenes/Dead_KnockedbyTrain.unity
+    guid: a51972adfb731e44fbf43cbb71ed901a
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 0d8c545ecd08eee45aaa8fb49db9d283
+  - enabled: 1
+    path: Assets/Scenes/Dead_Step.unity
+    guid: 6ed928d45373bbc4bbb68523d90a7f8d
   m_configObjects: {}
