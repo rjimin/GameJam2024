@@ -14,7 +14,7 @@ public class PlayerControl : MonoBehaviour
         transform.position = initialPosition;
 
         // Optionally, start following the mouse after a short delay
-        Invoke("StartFollowingMouse", 0.5f); // Starts following mouse after 0.5 seconds
+        Invoke("StartFollowingMouse", 0.8f); // Starts following mouse after 0.5 seconds
     }
 
     void Update()
