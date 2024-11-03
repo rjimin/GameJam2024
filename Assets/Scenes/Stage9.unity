@@ -429,7 +429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08b1d5a27aa8e4643b7ab5bf4bd3ac24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneStage: Stage10
+  SceneStage: Bridge
 --- !u!61 &520141991
 BoxCollider2D:
   m_ObjectHideFlags: 0
