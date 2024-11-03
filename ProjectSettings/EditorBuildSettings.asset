@@ -89,4 +89,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dead_Thief.unity
     guid: 22fe47f9a46f0564e9cdc6dd1ba10bf7
+  - enabled: 1
+    path: Assets/Scenes/Dead_Bomb.unity
+    guid: c4f801cefde8c5c408b960872ba02e7e
   m_configObjects: {}
