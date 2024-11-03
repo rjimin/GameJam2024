@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 30395638}
   - component: {fileID: 30395637}
   - component: {fileID: 30395636}
+  - component: {fileID: 30395639}
   - component: {fileID: 30395635}
   m_Layer: 0
   m_Name: Bridge
@@ -377,6 +378,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 6.28}
+--- !u!114 &30395639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30395634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb19e52b1cf56634db90b32d18eec038, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathSceneName: Dead_Bridge
 --- !u!1 &225931806
 GameObject:
   m_ObjectHideFlags: 0
@@ -534,6 +548,7 @@ GameObject:
   - component: {fileID: 526854183}
   - component: {fileID: 526854182}
   - component: {fileID: 526854187}
+  - component: {fileID: 526854188}
   - component: {fileID: 526854184}
   - component: {fileID: 526854186}
   - component: {fileID: 526854185}
@@ -828,6 +843,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1497269, y: 1.1460915}
   m_EdgeRadius: 0
+--- !u!114 &526854188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526854179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb19e52b1cf56634db90b32d18eec038, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathSceneName: Dead_Fall
 --- !u!1 &906338517
 GameObject:
   m_ObjectHideFlags: 0
