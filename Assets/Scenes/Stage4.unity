@@ -546,13 +546,13 @@ GameObject:
   - component: {fileID: 526854181}
   - component: {fileID: 526854180}
   - component: {fileID: 526854183}
+  - component: {fileID: 526854189}
   - component: {fileID: 526854182}
   - component: {fileID: 526854187}
   - component: {fileID: 526854188}
   - component: {fileID: 526854184}
   - component: {fileID: 526854186}
   - component: {fileID: 526854185}
-  - component: {fileID: 526854189}
   m_Layer: 0
   m_Name: stage4-bg
   m_TagString: Untagged
@@ -664,13 +664,14 @@ EdgeCollider2D:
   m_Points:
   - {x: -7.686983, y: 7.859386}
   - {x: -6.324381, y: 7.375323}
+  - {x: -5.316193, y: 5.921838}
   - {x: -4.4729376, y: 5.6595554}
-  - {x: -4.2040086, y: 4.210225}
-  - {x: -4.4110336, y: 4.3829503}
-  - {x: -4.2003527, y: 4.195385}
+  - {x: -4.583521, y: 5.528172}
+  - {x: -4.4110336, y: 5.28998}
+  - {x: -4.473976, y: 5.2384696}
   - {x: -4.548336, y: 4.6933002}
   - {x: -5.615335, y: 4.2207265}
-  - {x: -4.6855927, y: 2.3341284}
+  - {x: -6.6071544, y: 3.448836}
   - {x: -7.179882, y: 2.4102414}
   - {x: -10.77067, y: 5.0535245}
   - {x: -10.58619, y: 8.070863}
@@ -900,8 +901,9 @@ EdgeCollider2D:
   - {x: 3.9783747, y: 0.10674316}
   - {x: 2.5937254, y: -1.1021081}
   - {x: 1.6721276, y: -3.220921}
-  - {x: -2.355206, y: -0.39144355}
-  - {x: -0.7922566, y: 2.3243656}
+  - {x: -3.5181046, y: 0.2888286}
+  - {x: -2.9488049, y: 1.0169141}
+  - {x: -1.7157348, y: 2.5057716}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -1225,6 +1227,14 @@ PrefabInstance:
     - target: {fileID: 7599228713498630467, guid: 420513714f0cc9a4cb8136b06dcaaae2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8905442801546549809, guid: 420513714f0cc9a4cb8136b06dcaaae2, type: 3}
+      propertyPath: initialPosition.x
+      value: 4.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 8905442801546549809, guid: 420513714f0cc9a4cb8136b06dcaaae2, type: 3}
+      propertyPath: initialPosition.y
+      value: 3.72
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
