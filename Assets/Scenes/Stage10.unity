@@ -182,7 +182,7 @@ SpriteRenderer:
   m_SortingLayerID: 887972595
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7d8022c56df01c94e9bcbee8f7d95145, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2292724b007bf4faeaef261ad7623853, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -224,6 +224,97 @@ MonoBehaviour:
   collapseStages:
   - {fileID: 12993786}
   collapseDistance: 2.1
+--- !u!1 &128241132
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 128241135}
+  - component: {fileID: 128241134}
+  - component: {fileID: 128241133}
+  m_Layer: 0
+  m_Name: Thief
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &128241133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128241132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb19e52b1cf56634db90b32d18eec038, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathSceneName: Dead_Thief
+--- !u!61 &128241134
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128241132}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -8.278765, y: 4.777537}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.9658546, y: 0.68954563}
+  m_EdgeRadius: 0
+--- !u!4 &128241135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128241132}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3863051, y: -0.12538564, z: 0.034750678}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &296663847
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -348,7 +439,7 @@ SpriteRenderer:
   m_SortingLayerID: 887972595
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 532a02d78ccc82f448c5fa9c0856c703, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f7158b3b864d44f22a15600b5fef9966, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -453,7 +544,7 @@ SpriteRenderer:
   m_SortingLayerID: 887972595
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8b6a58ab6d64ce4458396a992e949770, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e22b1f2a74aca4aac80004c06103f2fd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -686,7 +777,7 @@ SpriteRenderer:
   m_SortingLayerID: 887972595
   m_SortingLayer: 3
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: ed865b8a400fb5e4f88e3a5aa013a9be, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bfb7b65691f5047f6a6083a4258f62ca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -791,7 +882,7 @@ SpriteRenderer:
   m_SortingLayerID: 887972595
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b8430164324583a4f962c33b7307930e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 22565c17a9b854247aca42c7d80ccfe0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -894,7 +985,7 @@ SpriteRenderer:
   m_SortingLayerID: 887972595
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 37aad773d5579a94b83eed40e39bae88, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b755229d035b94271bf1e64dcbadd87f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -999,7 +1090,7 @@ SpriteRenderer:
   m_SortingLayerID: 887972595
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 48b8e916b2b3f70478748c2dd98d529a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9d31b864878ef45d6ae3f5245be6fda2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1133,7 +1224,7 @@ SpriteRenderer:
   m_SortingLayerID: 887972595
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 940aa13c8adc4dd4cb0a0b79acc39abc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3171bede744ae4a1e98df92a7a40a3d8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1171,7 +1262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb19e52b1cf56634db90b32d18eec038, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathSceneName: DeathScreen
+  deathSceneName: Dead_Dog
 --- !u!70 &1226229796
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1364,7 +1455,7 @@ SpriteRenderer:
   m_SortingLayerID: -80180721
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 62a92f3aa2409b14e83b27088d552418, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 27859588a771c4af7a3a238bd29eaec8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1463,3 +1554,4 @@ SceneRoots:
   - {fileID: 12993788}
   - {fileID: 296663847}
   - {fileID: 415954629}
+  - {fileID: 128241135}
