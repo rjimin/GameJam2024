@@ -4,8 +4,8 @@ using System.Collections;
 public class TubeAnimator : MonoBehaviour
 {
     private float animationDuration = 1.0f;
-    private Vector3 startPosition = new Vector3(-8.96f, 9.12f, 0f);
-    private Vector3 endPosition = new Vector3(-8.96f, 0.05f, 0f);
+    private Vector3 startPosition = new Vector3(-8.93f, 10.13f, 0f);
+    private Vector3 endPosition = new Vector3(-8.93f, -0.01f, 0f);
 
     void Start()
     {
