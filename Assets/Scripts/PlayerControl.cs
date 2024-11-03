@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MouseControl : MonoBehaviour
+public class PlayerControl : MonoBehaviour
 {
     private Camera mainCamera;
     public Vector3 initialPosition = new Vector3(0, 0, 0); // Set the initial spawn position here
