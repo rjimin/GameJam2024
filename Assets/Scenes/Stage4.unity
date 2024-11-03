@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 30395638}
   - component: {fileID: 30395637}
   - component: {fileID: 30395636}
+  - component: {fileID: 30395639}
   - component: {fileID: 30395635}
   m_Layer: 0
   m_Name: Bridge
@@ -377,6 +378,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 6.28}
+--- !u!114 &30395639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30395634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb19e52b1cf56634db90b32d18eec038, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathSceneName: Dead_Bridge
 --- !u!1 &225931806
 GameObject:
   m_ObjectHideFlags: 0
@@ -534,9 +548,11 @@ GameObject:
   - component: {fileID: 526854183}
   - component: {fileID: 526854182}
   - component: {fileID: 526854187}
+  - component: {fileID: 526854188}
   - component: {fileID: 526854184}
   - component: {fileID: 526854186}
   - component: {fileID: 526854185}
+  - component: {fileID: 526854189}
   m_Layer: 0
   m_Name: stage4-bg
   m_TagString: Untagged
@@ -650,12 +666,12 @@ EdgeCollider2D:
   - {x: -6.324381, y: 7.375323}
   - {x: -4.4729376, y: 5.6595554}
   - {x: -4.2040086, y: 4.210225}
-  - {x: -2.6863317, y: 4.083032}
-  - {x: -1.8253537, y: 2.3583863}
-  - {x: 0.6823165, y: 1.8440783}
-  - {x: 2.61234, y: 1.4089937}
-  - {x: 3.6834524, y: 0.45964003}
-  - {x: 1.6415445, y: -3.288203}
+  - {x: -4.4110336, y: 4.3829503}
+  - {x: -4.2003527, y: 4.195385}
+  - {x: -4.548336, y: 4.6933002}
+  - {x: -5.615335, y: 4.2207265}
+  - {x: -4.6855927, y: 2.3341284}
+  - {x: -7.179882, y: 2.4102414}
   - {x: -10.77067, y: 5.0535245}
   - {x: -10.58619, y: 8.070863}
   - {x: -7.5673504, y: 7.8536744}
@@ -828,6 +844,68 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1497269, y: 1.1460915}
   m_EdgeRadius: 0
+--- !u!114 &526854188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526854179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb19e52b1cf56634db90b32d18eec038, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathSceneName: Dead_Fall
+--- !u!68 &526854189
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526854179}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.7910757, y: 2.2493858}
+  - {x: 0.82606125, y: 2.06165}
+  - {x: 1.8912752, y: 1.0920868}
+  - {x: 2.6626344, y: 1.3862598}
+  - {x: 2.9152806, y: 0.3232571}
+  - {x: 3.9783747, y: 0.10674316}
+  - {x: 2.5937254, y: -1.1021081}
+  - {x: 1.6721276, y: -3.220921}
+  - {x: -2.355206, y: -0.39144355}
+  - {x: -0.7922566, y: 2.3243656}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &906338517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1010,7 +1088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2467a2ac8adbe42cdb40e173238f0ba3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  sceneName: Stage5
 --- !u!1 &1015812504 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2407390479202416018, guid: 420513714f0cc9a4cb8136b06dcaaae2, type: 3}
