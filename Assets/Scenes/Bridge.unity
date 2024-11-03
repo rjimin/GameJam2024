@@ -136,9 +136,10 @@ GameObject:
   - component: {fileID: 302832464}
   - component: {fileID: 302832463}
   - component: {fileID: 302832462}
+  - component: {fileID: 302832467}
   m_Layer: 0
   m_Name: stage9-witch (2)
-  m_TagString: Untagged
+  m_TagString: Ghost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -283,6 +284,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &302832467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302832461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13602cdcc3beb4e48886102c46029e98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &415925193
 GameObject:
   m_ObjectHideFlags: 0
@@ -387,7 +400,7 @@ GameObject:
   - component: {fileID: 424216606}
   m_Layer: 0
   m_Name: bridge
-  m_TagString: Untagged
+  m_TagString: Bridge
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -491,7 +504,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 3.3320458, y: 2.0402048}
+  m_Offset: {x: 3.5682366, y: 1.9977593}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -502,7 +515,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.741056, y: 16.39959}
+  m_Size: {x: 6.066262, y: 16.484482}
   m_EdgeRadius: 0
 --- !u!1 &572618036
 GameObject:
@@ -517,9 +530,10 @@ GameObject:
   - component: {fileID: 572618039}
   - component: {fileID: 572618038}
   - component: {fileID: 572618037}
+  - component: {fileID: 572618042}
   m_Layer: 0
   m_Name: stage9-witch (3)
-  m_TagString: Untagged
+  m_TagString: Ghost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -664,6 +678,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &572618042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572618036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13602cdcc3beb4e48886102c46029e98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &821730696
 GameObject:
   m_ObjectHideFlags: 0
@@ -834,9 +860,10 @@ GameObject:
   - component: {fileID: 1138799337}
   - component: {fileID: 1138799336}
   - component: {fileID: 1138799335}
+  - component: {fileID: 1138799340}
   m_Layer: 0
   m_Name: stage9-witch (1)
-  m_TagString: Untagged
+  m_TagString: Ghost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -981,6 +1008,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1138799340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138799334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13602cdcc3beb4e48886102c46029e98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1329261671
 GameObject:
   m_ObjectHideFlags: 0
@@ -1086,9 +1125,10 @@ GameObject:
   - component: {fileID: 1387923142}
   - component: {fileID: 1387923146}
   - component: {fileID: 1387923145}
+  - component: {fileID: 1387923147}
   m_Layer: 0
   m_Name: stage9-witch
-  m_TagString: Untagged
+  m_TagString: Ghost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1233,6 +1273,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathSceneName: Dead_hitted
+--- !u!114 &1387923147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387923141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13602cdcc3beb4e48886102c46029e98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
