@@ -6,9 +6,13 @@ using UnityEngine.SceneManagement;
 public class SceneSwitcher : MonoBehaviour
 {
     public string SceneStage;
-    private void OnMouseOver()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        SceneManager.LoadScene(SceneStage);
+        if (other.CompareTag("Player"))
+        {
+            SceneManager.LoadScene(SceneStage);
+        }
+        
     }
 }
 
