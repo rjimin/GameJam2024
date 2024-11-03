@@ -18,6 +18,24 @@ EditorBuildSettings:
     path: Assets/Scenes/Stage1.unity
     guid: 6d9da4fe92a86a34c866c63a2b889ff5
   - enabled: 1
+    path: Assets/Scenes/Stage2.unity
+    guid: 1f22f33b28a6f45a293d3f10ddc28993
+  - enabled: 1
+    path: Assets/Scenes/Stage3.unity
+    guid: 7b8ef2be55deee547960a5046b4fcc55
+  - enabled: 1
+    path: Assets/Scenes/Stage4.unity
+    guid: 56659890b6e044a19bd6533a3b641def
+  - enabled: 1
+    path: Assets/Scenes/Stage5.unity
+    guid: 5fcfd1c768bc11942936eb58bbb4a52e
+  - enabled: 1
+    path: Assets/Scenes/Stage6.unity
+    guid: d8fbdc2e216b05944847fb0fafa09158
+  - enabled: 1
+    path: Assets/Scenes/SecretStage.unity
+    guid: 18c7e4744ddca477abeb28602e7d6610
+  - enabled: 1
     path: Assets/Scenes/Dead_Bridge.unity
     guid: cb54cf19225fc3f48b9433f3ca9469cb
   - enabled: 1
