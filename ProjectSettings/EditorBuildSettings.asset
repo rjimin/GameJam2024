@@ -83,4 +83,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dead_Scarecrow.unity
     guid: 03fffa81500c8a84ca74d4e3346073d8
+  - enabled: 1
+    path: Assets/Scenes/Dead_Hole.unity
+    guid: 7eed23bf2fa9a314aad84e60195b4950
+  - enabled: 1
+    path: Assets/Scenes/Dead_Dog.unity
+    guid: 1e532cb03bafed8409c5f876c48ad17d
+  - enabled: 1
+    path: Assets/Scenes/Dead_Thief.unity
+    guid: 22fe47f9a46f0564e9cdc6dd1ba10bf7
   m_configObjects: {}
