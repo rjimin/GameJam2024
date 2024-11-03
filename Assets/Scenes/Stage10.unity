@@ -1072,7 +1072,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb19e52b1cf56634db90b32d18eec038, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathSceneName: DeathScreen
+  deathSceneName: Dead_Hole
 --- !u!1 &1226229792
 GameObject:
   m_ObjectHideFlags: 0
